@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1920FAE91E0906F500805A1F /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1920FAE71E0906F500805A1F /* CameraViewController.m */; };
+		1920FAEA1E0906F500805A1F /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1920FAE81E0906F500805A1F /* CameraViewController.xib */; };
+		1920FAF21E090ABD00805A1F /* photoShutter2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1920FAF11E090ABD00805A1F /* photoShutter2.caf */; };
 		19FE84CD1DFEC7CA00D82815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FE84CC1DFEC7CA00D82815 /* main.m */; };
 		19FE84D01DFEC7CA00D82815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FE84CF1DFEC7CA00D82815 /* AppDelegate.m */; };
 		19FE84D31DFEC7CA00D82815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FE84D21DFEC7CA00D82815 /* ViewController.m */; };
 		19FE84D61DFEC7CA00D82815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FE84D41DFEC7CA00D82815 /* Main.storyboard */; };
 		19FE84D81DFEC7CA00D82815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FE84D71DFEC7CA00D82815 /* Assets.xcassets */; };
 		19FE84DB1DFEC7CA00D82815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FE84D91DFEC7CA00D82815 /* LaunchScreen.storyboard */; };
-		19FE84E51DFEC7D900D82815 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FE84E31DFEC7D900D82815 /* CameraViewController.m */; };
-		19FE84E61DFEC7D900D82815 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19FE84E41DFEC7D900D82815 /* CameraViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1920FAE61E0906F500805A1F /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		1920FAE71E0906F500805A1F /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		1920FAE81E0906F500805A1F /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		1920FAF11E090ABD00805A1F /* photoShutter2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutter2.caf; sourceTree = "<group>"; };
 		19FE84C81DFEC7CA00D82815 /* CustomCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FE84CC1DFEC7CA00D82815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19FE84CE1DFEC7CA00D82815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,9 +33,6 @@
 		19FE84D71DFEC7CA00D82815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19FE84DA1DFEC7CA00D82815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19FE84DC1DFEC7CA00D82815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		19FE84E21DFEC7D900D82815 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		19FE84E31DFEC7D900D82815 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
-		19FE84E41DFEC7D900D82815 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +69,9 @@
 				19FE84CF1DFEC7CA00D82815 /* AppDelegate.m */,
 				19FE84D11DFEC7CA00D82815 /* ViewController.h */,
 				19FE84D21DFEC7CA00D82815 /* ViewController.m */,
-				19FE84E21DFEC7D900D82815 /* CameraViewController.h */,
-				19FE84E31DFEC7D900D82815 /* CameraViewController.m */,
-				19FE84E41DFEC7D900D82815 /* CameraViewController.xib */,
+				1920FAE61E0906F500805A1F /* CameraViewController.h */,
+				1920FAE71E0906F500805A1F /* CameraViewController.m */,
+				1920FAE81E0906F500805A1F /* CameraViewController.xib */,
 				19FE84D41DFEC7CA00D82815 /* Main.storyboard */,
 				19FE84D71DFEC7CA00D82815 /* Assets.xcassets */,
 				19FE84D91DFEC7CA00D82815 /* LaunchScreen.storyboard */,
@@ -82,6 +84,7 @@
 		19FE84CB1DFEC7CA00D82815 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1920FAF11E090ABD00805A1F /* photoShutter2.caf */,
 				19FE84CC1DFEC7CA00D82815 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -144,8 +147,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1920FAF21E090ABD00805A1F /* photoShutter2.caf in Resources */,
 				19FE84DB1DFEC7CA00D82815 /* LaunchScreen.storyboard in Resources */,
-				19FE84E61DFEC7D900D82815 /* CameraViewController.xib in Resources */,
+				1920FAEA1E0906F500805A1F /* CameraViewController.xib in Resources */,
 				19FE84D81DFEC7CA00D82815 /* Assets.xcassets in Resources */,
 				19FE84D61DFEC7CA00D82815 /* Main.storyboard in Resources */,
 			);
@@ -158,8 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1920FAE91E0906F500805A1F /* CameraViewController.m in Sources */,
 				19FE84D31DFEC7CA00D82815 /* ViewController.m in Sources */,
-				19FE84E51DFEC7D900D82815 /* CameraViewController.m in Sources */,
 				19FE84D01DFEC7CA00D82815 /* AppDelegate.m in Sources */,
 				19FE84CD1DFEC7CA00D82815 /* main.m in Sources */,
 			);
@@ -273,8 +277,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomCamera/Opencv2",
+				);
 				INFOPLIST_FILE = CustomCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomCamera/Opencv2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ibos.ibosvip1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -284,8 +296,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomCamera/Opencv2",
+				);
 				INFOPLIST_FILE = CustomCamera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CustomCamera/Opencv2",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = cn.ibos.ibosvip1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -310,6 +330,7 @@
 				19FE84E11DFEC7CA00D82815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
